@@ -1,0 +1,104 @@
+body {
+    background-color: beige;
+    font-family: arial;
+    margin: 0;
+}
+
+#content{
+    width: 980px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+#navigation{
+    background-color: #181818;
+    padding: 10px;
+    text-align: right; 
+}
+
+#navigation ul{
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+#navigation li{
+    display: inline-block;
+    margin-right: 20px;
+}
+#navigation a{
+     text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+#navigation a:hover{
+    background-color:beige;
+    color: #181818;
+}
+
+#navigation a.current{
+    background-color: beige;
+    color: #181818;
+}
+
+#lead-banner img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+#bestSeller{
+    text-align: center;
+}
+#bestSeller p:first-child {
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin:30px;
+}
+
+#bestSeller img{
+    height: 300px;
+}
+
+#bestSeller p.price{
+    font: 50px bold;
+    margin: 0px;
+}
+
+#bestSeller img{
+    width: 200px;
+    height: auto;
+    margin: 0px;
+}
+
+#bestSeller a{
+    display: block;
+    width:210px;
+    margin: 0px auto;
+    border: solid darkblue;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#today{
+    background-color: #181818;
+}
+
+#today p{
+    color: beige;
+    margin: 5px;
+}
+
+#today .arabic{
+    text-align: right;
+}
+
+#today > p {
+    font-size: 30px;
+}
+
+#today .hadith{
+    padding-bottom: 20px;
+}
